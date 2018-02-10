@@ -10,8 +10,11 @@ namespace cmddeneme
     {
         static void Main(string[] args)
         {
+
             Console.Write("a");
-            Console.ReadKey();
+            ConsoleKeyInfo a = Console.ReadKey();
+            if (a.Key != ConsoleKey.A) while (true) Console.Write("b");
+
         }
     }
 }
