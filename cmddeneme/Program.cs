@@ -10,6 +10,8 @@ namespace cmddeneme
     {
         static void Main(string[] args)
         {
+            Console.Write("a");
+            Console.ReadKey();
         }
     }
 }
